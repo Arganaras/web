@@ -1,0 +1,291 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+/* Estilos generales */
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Encabezado */
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000;
+    position: static;
+    width: 100%;
+    z-index: 100;
+    flex-wrap: wrap;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+    flex-wrap: wrap;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+.logo {
+    margin-left: 40px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.navbar a:hover {
+    font-size: 25px;
+    transition: 0.5s;
+    color: #76cbff;
+}
+
+/* Encabezado de página */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(wallpaperuse.com-wallpaper-azul-911328.jpg);
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #76cbff;
+    font-weight: bold;
+    border: 2px solid #76cbff;
+    border-radius: 40px;
+    width: 200px;
+    background-color: #000;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px 40px;
+    padding: 20px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+/* Botón */
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #76cbff;
+    color: #76cbff;
+    text-decoration: none;
+    background: black;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background: #76cbff;
+    color: black;
+    border: 2px black solid;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+/* Botones de inicio */
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0px 10px;
+}
+
+
+@media (max-width: 1250px) {
+    /* … */
+  }
+  
+  .Jugadores a {
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+.PROFESORES a {
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+.madrinas a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.Jugadores:hover {
+    background: #000;
+    color: #76cbff;
+}
+
+.PROFESORES:hover {
+    background: #000;
+}
+
+.madrinas:hover {
+    background: #000;
+}
+
+.ul {
+    border: 2px #000 solid;
+    background: transparent;
+    color: #000;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.lds-spinner {
+    color: official;
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-spinner div {
+    transform-origin: 40px 40px;
+    animation: lds-spinner 1.2s linear infinite;
+  }
+  .lds-spinner div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 37px;
+    width: 6px;
+    height: 18px;
+    border-radius: 20%;
+    background: #76cbff;
+  }
+  .lds-spinner div:nth-child(1) {
+    transform: rotate(0deg);
+    animation-delay: -1.1s;
+  }
+  .lds-spinner div:nth-child(2) {
+    transform: rotate(30deg);
+    animation-delay: -1s;
+  }
+  .lds-spinner div:nth-child(3) {
+    transform: rotate(60deg);
+    animation-delay: -0.9s;
+  }
+  .lds-spinner div:nth-child(4) {
+    transform: rotate(90deg);
+    animation-delay: -0.8s;
+  }
+  .lds-spinner div:nth-child(5) {
+    transform: rotate(120deg);
+    animation-delay: -0.7s;
+  }
+  .lds-spinner div:nth-child(6) {
+    transform: rotate(150deg);
+    animation-delay: -0.6s;
+  }
+  .lds-spinner div:nth-child(7) {
+    transform: rotate(180deg);
+    animation-delay: -0.5s;
+  }
+  .lds-spinner div:nth-child(8) {
+    transform: rotate(210deg);
+    animation-delay: -0.4s;
+  }
+  .lds-spinner div:nth-child(9) {
+    transform: rotate(240deg);
+    animation-delay: -0.3s;
+  }
+  .lds-spinner div:nth-child(10) {
+    transform: rotate(270deg);
+    animation-delay: -0.2s;
+  }
+  .lds-spinner div:nth-child(11) {
+    transform: rotate(300deg);
+    animation-delay: -0.1s;
+  }
+  .lds-spinner div:nth-child(12) {
+    transform: rotate(330deg);
+    animation-delay: 0s;
+  }
+  @keyframes lds-spinner {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .loader {
+    background: #000;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    clip-path: circle(150% at 100% 0);
+    transition: clip-path 1s ease-in-out;
+}
+
+.loader2 {
+    clip-path: circle(0% at 100% 100%);
+
+}
+
+.link {
+  text-decoration: underline;
+  color: gray;
+}

@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(wallpaperuse.com-wallpaper-azul-911328.jpg);
+}
+
+.wrapper {
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+    border: 5px white solid;
+    background: #000000;
+    color: #76cbff;
+    position: relative;
+}
+
+.wrapper::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background-image: linear-gradient(#76cbff, #fcfcfc, #76cbff) ;
+    width: 100%;
+    height: 100%;
+    filter: blur(50px);
+    z-index: -1;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    background: url(wallpaperuse.com-wallpaper-azul-911328.jpg);
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(124, 132, 255);
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: black;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin: -0px 0 25px;
+    color: #76cbff;
+    height: 30px;
+    font-weight: bold;
+
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 40px;
+    background: #76cbff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.wrapper .btn:hover {
+    background: url(wallpaperuse.com-wallpaper-azul-911328.jpg);
+}
+
+.wrapper .register-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wrapper .register-link .reg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 300px;
+    background-color: #76cbff;
+    border-radius: 40px;
+}
+
+.wrapper .register-link .reg:hover {
+    background-image: linear-gradient(#000, #76cbff, #fcfcfc);
+}
+
+.wrapper .register-link .reg .regis {
+    text-decoration: none;
+    color: #000000;
+}
+
+.wrapper .btn-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    border-radius: 40px;
+    color: #76cbff;
+    height: 40px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
